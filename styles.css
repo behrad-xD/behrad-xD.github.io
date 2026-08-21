@@ -46,14 +46,12 @@ ul{
     margin-left: 18px;
     background: rgb(240, 126, 164);
     color: white;
-    padding: 10px 15px;
+    padding: 10px;
+
     border-radius: 30px;
-    transition: all 0.5s;
 }
 
-#header .phone:hover {
-    background: rgb(218, 2, 218);
-}
+
 
 
 #header .navbar-item {
@@ -100,7 +98,7 @@ ul{
 
 .menu-list .menu-img {
        width: 100%;       /* همیشه به اندازه عرض کانتینر والد */
-       max-width: 200px;  /* بیشتر از 200 نشود */
+       max-width: 300px;  /* بیشتر از 300 نشود */
        height: auto;      /* ارتفاع خودکار تنظیم شود */
        display: block;
        margin: 0 auto 15px;
@@ -154,6 +152,133 @@ ul{
     color: rgb(91, 7, 226);
 }
 
+/******صحفه اصلی*****/
+.about-us {
+    background-color: white;
+    border-radius: 18px;
+    margin: 20px 15px;
+    padding: 18px ;
+    width: 60%;
+}
+
+.about-us .about-us-title {
+    color: red;
+}
+
+/******خدمات*******/
+
+.services {
+    background-color: white;
+    border-radius: 18px;
+    margin: 20px 15px;
+    padding: 18px 25px;
+    width: 60%;
+    
+}
+
+.services .services-title {
+    color: red;
+    margin-bottom: 10px
+}
+
+.services .services-text {
+    word-break: break-all;
+}
+
+.call {
+    background-color: white;
+    border-radius: 18px;
+    margin: 20px 15px;
+    padding: 18px 25px;
+    width: max-content;
+}
+
+.call .call-title {
+    color: green;
+    margin-bottom: 10px;
+}
+
+/*******send*********/
+
+.send {
+    background-color: white;
+    border-radius: 18px;
+    margin: 20px 15px;
+    padding: 18px 25px;
+    width: 60%;
+}
+
+.send .send-title {
+    margin-bottom: 10px;
+    color: blue;
+}
+
+/*********(Soutian)جزعیات بیشتر********/
+.Soutian-title {
+    color: rgba(215, 66, 66, 0.77);
+    margin-bottom: 12px;
+}
+
+.Soutian-line {
+    border-bottom: 3px solid rgba(221, 134, 134, 0.77);
+    padding-bottom: 15px;
+}
+
+.send-inf {
+    margin-top: 14px;
+    color: rgb(2, 39, 222);
+}
+
+/*********(paposh)جزعیات بیشتر********/
+.paposh-title {
+    color: rgba(27, 11, 11, 0.77);
+    margin-bottom: 12px;
+}
+
+.paposh-line {
+    border-bottom: 3px solid rgba(221, 134, 134, 0.77);
+    padding-bottom: 15px;
+}
+
+.send-paposh {
+    margin-top: 14px;
+    color: rgb(2, 39, 222);
+}
+
+/*********(Short-nakhi)جزعیات بیشتر********/
+.Short-nakhi-title {
+    color: rgba(196, 11, 190, 0.658);
+    margin-bottom: 12px;
+}
+
+.Short-nakhi-line {
+    border-bottom: 3px solid #b339cca8;
+    padding-bottom: 15px;
+}
+
+.send-Short-nakhi {
+    margin-top: 14px;
+    color: rgb(2, 39, 222);
+}
+
+
+/*********(Short-P)جزعیات بیشتر********/
+.Short-P-title {
+    color: rgba(184, 34, 34, 0.77);
+    margin-bottom: 12px;
+}
+
+.Short-P-line {
+    border-bottom: 3px solid rgba(100, 6, 108, 0.841);
+    padding-bottom: 15px;
+}
+
+.send-Short-P {
+    margin-top: 14px;
+    color: rgb(2, 39, 222);
+}
+
+
 /* تنظیمات برای تبلت (عرض صفحه کمتر از 992 پیکسل) */
 @media (max-width: 992px) {
     .menu-list .menu-item {
@@ -192,5 +317,10 @@ ul{
 
     #footer .footer {
         width: 75%;
+    }
+
+    #body .logo-img {
+        display: block;
+        margin: 0 auto;
     }
 }
